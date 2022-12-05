@@ -11,8 +11,8 @@ header{
 
 .mikeylogo{
     float:left;
-   height: 100px;
-    width: 100px;
+   height: 50px;
+    width: 50px;
 }
 
 .menu{
@@ -61,6 +61,11 @@ main{
     color:white;
     padding:15px;
 }
+#introh1{
+text-align:center;
+letter-spacing:15px;
+}
+
 
 .blurple{
     color:#565dff;
