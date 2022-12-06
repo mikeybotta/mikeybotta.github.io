@@ -57,6 +57,12 @@ main{
     text-align: center;
 }
 
+.mainimg{
+    max-height:100px;
+    width:auto;
+    object-fit:cover;
+}
+
 #footer1 {
     background-color:#22577A;
     color:white;
