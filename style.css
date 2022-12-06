@@ -88,9 +88,10 @@ main {
     margin-left:2%;
     margin-right:40%;
 }
-.joruneyimg{
+.journeyimg{
     display:inline;
-    height:100px;
+    max-height:100px;
+    width:auto;
 }
 
 
