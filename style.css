@@ -54,12 +54,15 @@ hr {
 
 main {
     text-align: center;
+    max-width: 900px;
+    margin:auto;
 }
 
 .mainimgs {
-    max-height: 100px;
+    max-height: 300px;
     width: auto;
     object-fit: cover;
+    margin: 0;
 }
 
 #footer1 {
@@ -78,20 +81,34 @@ main {
     height: 10px;
 }
 
-.bodydiv {
-    margin-left:10%;
-    margin-right:10%;
+.smalldiv2 {
+    width: 20%;
 }
 
-.journeydiv{
-    text-align:left;
-    margin-left:2%;
-    margin-right:40%;
+.bodydiv {
+    margin-left: 10%;
+    margin-right: 10%;
 }
-.journeyimg{
-    display:inline;
-    max-height:100px;
-    width:auto;
+
+.journeydiv {
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 40%;
+    display: inline;
+}
+
+.journeydiv2 {
+    text-align: right;
+    margin-left: 40%;
+    margin-right: 2%;
+    display: inline;
+}
+
+
+.journeyimg {
+    display: inline;
+    max-height: 300px;
+    width: auto;
 }
 
 
