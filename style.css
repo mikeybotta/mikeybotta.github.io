@@ -83,6 +83,8 @@ main {
 
 .smalldiv2 {
     width: 20%;
+    border: 2px solid;
+    border-image: linear-gradient(90deg, #61E786 34%, #06AED5 67%, #9792E3 100%) 1;
 }
 
 .bodydiv {
@@ -107,12 +109,15 @@ main {
 
 .journeydiv p{
     display: inline;
+    vertical-align: middle;
 }
 
 .journeyimg {
     display: inline;
-    max-height: 300px;
+    max-height: 150px;
     width: auto;
+    float:left;
+    vertical-align:middle;
 }
 
 
