@@ -55,7 +55,7 @@ hr {
 main {
     text-align: center;
     max-width: 900px;
-    margin:auto;
+    margin: auto;
 }
 
 .mainimgs {
@@ -87,39 +87,30 @@ main {
     border-image: linear-gradient(90deg, #61E786 34%, #06AED5 67%, #9792E3 100%) 1;
 }
 
-.bodydiv {
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
 .journeydiv {
     text-align: left;
-    margin-left: 2%;
-    margin-right: 40%;
-    display: inline;
+    height:auto;
+    padding-bottom:200px;
+    vertical-align: center;
 }
 
-.journeydiv:nth-of-type(odd){
-    color:green;
+.journeydiv:nth-of-type(odd) {
+    color: green;
     text-align: right;
-    margin-left: 40%;
-    margin-right: 2%;
-    display: inline;
 }
 
-.journeydiv p{
-    display: inline;
-    vertical-align: middle;
+.journeyimgl {
+    float: left;
+    height:250px;
+    padding-right:30px;
 }
 
-.journeyimg {
-    display: inline;
-    max-height: 150px;
-    width: auto;
-    float:left;
-    vertical-align:middle;
+.journeyimgr {
+    float: right;
+    height:250px;
+    padding-left:30px;
 }
-
 
 .blurple {
     color: #565dff;
