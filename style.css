@@ -97,13 +97,17 @@ main {
     display: inline;
 }
 
-.journeydiv2 {
+.journeydiv:nth-of-type(odd){
+    color:green;
     text-align: right;
     margin-left: 40%;
     margin-right: 2%;
     display: inline;
 }
 
+.journeydiv p{
+    display: inline;
+}
 
 .journeyimg {
     display: inline;
