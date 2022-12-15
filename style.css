@@ -4,6 +4,8 @@ html {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 body {
@@ -15,6 +17,7 @@ nav {
     padding: 30px 15px 0px 15px;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .menu button {
@@ -26,6 +29,8 @@ nav {
     font-size: 1.1rem;
     padding: 0;
     margin: 15px;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 .menu button:hover {
@@ -35,7 +40,7 @@ nav {
 
 hr {
     border: 5px solid;
-    border-image: linear-gradient(90deg, #61E786 34%, #06AED5 67%, #9792E3 100%) 1;
+    border-image: linear-gradient(90deg, #ead2e5 20%, #bde2e2 40%, #bec4e2 60%, #d1e6dc 100%) 1;
 }
 
 .cleardiv {
@@ -79,8 +84,7 @@ main {
 .smalldiv2 {
     width: 20%;
     border: 2px solid;
-    border-image: linear-gradient(90deg, #61E786 34%, #06AED5 67%, #9792E3 100%) 1;
-}
+    border-image: linear-gradient(90deg, #ead2e5 20%, #bde2e2 40%, #bec4e2 60%, #d1e6dc 100%) 1;}
 
 
 .journeydiv {
@@ -91,7 +95,6 @@ main {
 }
 
 .journeydiv:nth-of-type(odd) {
-    color: green;
     text-align: right;
 }
 
